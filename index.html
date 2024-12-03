@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fecth try</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Practice Fecth</h1>
+        <form action="" class="create-form">
+            <h2>Создание поста</h2>
+            <p>
+                <label for="new-post-title">Заголовок поста:</label>
+                <input id="new-post-title" name="title">
+            </p>
+            <p>
+                <label for="new-post-id">Идентификатор поста</label>
+                <input id="new-post-id" type="number" name="id">
+            </p>
+            <button type="submit">Сохрнаить пост на сервер</button>
+        </form>
+        <form action="" class="search-form">
+            <h2>Поиск поста по Id</h2>
+            <p>
+                <label for="search-post-id"></label>
+                <input id="search-post-id" type="number" value="1">
+            </p>
+            <button type="submit">Загрузить информацию с сервера</button>
+        </form>
+        <form action="" class="search-post">
+            <h2>Поиск постов</h2>
+            <p>
+                <label for="search-post-min">Поиск постов по минимуму</label>
+                <input id="search-post-min" type="number">
+            </p>
+            <button type="submit">Найти посты</button>
+        </form>
+        <div class="result"></div>
+    </main>
+</body>
+</html>

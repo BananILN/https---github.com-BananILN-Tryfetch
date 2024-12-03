@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(183, 209, 233);
+    padding: 1rem;
+}
+
+h1{
+    margin: 15px 15px; 
+}
+
+main{
+    display: grid;
+    grid-template-columns: 30rem auto;
+    
+}
+
+form{
+    grid-column:  1/ 2;
+    background-color:blanchedalmond;
+    line-height: 1.5;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.result:empty{
+    display: none;
+}
+
+.result{
+    font-size: 24px;
+    font-weight: 600;
+    background-color: chartreuse;
+    grid-column: 2 / 3;
+    grid-row:  2/5 ;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+}
